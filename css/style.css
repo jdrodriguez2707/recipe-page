@@ -79,7 +79,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 2.8rem;
-  padding: 2.8rem 3.2rem;
+  padding: 3.2rem;
 }
 
 .recipe-title {
@@ -91,7 +91,7 @@ body {
 }
 
 .preparation-time-container {
-  padding: 2rem;
+  padding: 2.8rem;
   border-radius: 20px;
   background-color: var(--rose-50);
 }
@@ -101,39 +101,7 @@ body {
   color: var(--rose-800);
 }
 
-.preparation-time-details {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  list-style: none;
-}
-
-.preparation-time-item {
-  position: relative;
-  padding-left: 4rem;
-  color: var(--stone-600);
-
-  /* Custom bullet */
-  &::before {
-    content: "•";
-    position: absolute;
-    left: 0.8rem;
-    color: var(--rose-800);
-    font-size: 2.4rem;
-    line-height: 0.9;
-  }
-}
-
-.ingredients-container {
-  padding-bottom: 2.8rem;
-  border-bottom: 1px solid var(--stone-150);
-}
-
-.ingredients-title {
-  margin-bottom: 1.6rem;
-  color: var(--brown-800);
-}
-
+.preparation-time-details,
 .ingredients-list {
   display: flex;
   flex-direction: column;
@@ -141,7 +109,7 @@ body {
   list-style: none;
 }
 
-.ingredients-item {
+.custom-bullet {
   position: relative;
   padding-left: 4rem;
   color: var(--stone-600);
@@ -157,11 +125,13 @@ body {
   }
 }
 
+.ingredients-container,
 .instructions-container {
   padding-bottom: 2.8rem;
   border-bottom: 1px solid var(--stone-150);
 }
 
+.ingredients-title,
 .instructions-title {
   margin-bottom: 1.6rem;
   color: var(--brown-800);
@@ -203,6 +173,8 @@ body {
 }
 
 .nutrition-table-description {
+  margin-bottom: 2rem;
+  text-align: start;
   color: var(--stone-600);
 }
 
@@ -242,10 +214,10 @@ body {
   color: var(--rose-800);
 }
 
-@media (width > 756px) {
+@media (width > 47.25rem) {
   .main-container {
-    margin: 9.6rem 0;
-    padding: 2.8rem 3.2rem 0;
+    margin: 7.2rem 0;
+    padding: 3.2rem 3.2rem 0;
   }
 
   .recipe-image-container {
@@ -254,6 +226,6 @@ body {
   }
 
   .recipe-container {
-    padding: 2.8rem 0;
+    padding: 3.2rem 0;
   }
 }
