@@ -23,7 +23,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- [Solution URL](https://your-solution-url.com)
+- [Solution URL](https://www.frontendmentor.io/solutions/responsive-and-semantic-recipe-page-EMK06poBYS)
 - [Live Site URL](https://jdrodriguez2707.github.io/recipe-page/)
 
 ## My process
